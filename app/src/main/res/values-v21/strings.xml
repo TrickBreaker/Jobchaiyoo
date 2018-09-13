@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vacancy_sub_text">Recent vacancy announced by</string>
+    <string name="class_sub_text">Course Starting on</string>
+    <string name="events_sub_text">Up-and-Coming events from</string>
+</resources>

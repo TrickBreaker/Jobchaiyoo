@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="progressBarColor">#009688</color>
+    <color name="progress_background">#000000</color>
+    <color name="top_meetup_appbar_layout">#159957</color>
+    <color name="top_class_appbar_layout">#159957</color>
+    <color name="top_job_appbar_layout">#159957</color>
+
+
+
+    <color name="eventPrimaryDark">#2E7D32</color>
+    <color name="classPrimaryDark">#2E7D32</color>
+    <color name="jobPrimaryDark">#2E7D32</color>
+
+
+
+
+</resources>

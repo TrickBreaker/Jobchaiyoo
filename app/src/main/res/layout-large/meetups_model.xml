@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="-8dp"
+    card_view:cardUseCompatPadding="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:background="#E0F7FA">
+
+        <ImageView
+            android:id="@+id/company_image"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="7dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder" />
+
+
+        <TextView
+            android:id="@+id/nameTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_toRightOf="@+id/company_image"
+            android:text="Name"
+            android:textColor="#880e4f"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/address_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/date_lable"
+            android:layout_alignTop="@+id/location_image"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/company_image"
+            android:paddingBottom="1dp"
+            android:text="kathmandu" />
+
+        <TextView
+            android:id="@+id/date_lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/organizer"
+            android:layout_alignStart="@+id/address_text"
+            android:layout_alignTop="@+id/date_image"
+            android:paddingBottom="1dp"
+            android:text="Date:"
+            android:textColor="#2196F3" />
+
+        <TextView
+            android:id="@+id/date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/date_lable"
+            android:layout_alignTop="@+id/date_lable"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@+id/date_lable"
+            android:text="date"
+            android:textColor="#2196F3" />
+
+        <TextView
+            android:id="@+id/organized_by"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/date_image"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/company_image"
+            android:layout_toRightOf="@+id/company_image"
+            android:padding="1dp"
+            android:text="organized By:"
+            android:textColor="#000000"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/organizer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/organized_by"
+            android:layout_toRightOf="@+id/organized_by"
+            android:includeFontPadding="true"
+            android:text="Code"
+            android:textColor="#c2185b"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="45dp"
+            android:layout_height="5dp"
+            android:layout_alignBottom="@+id/nameTxt"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/nameTxt"
+            android:layout_marginEnd="10dp"
+            android:background="#999999"
+            android:gravity="center"
+            android:text="Talks"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/date_image"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_below="@+id/location_image"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/company_image"
+            android:layout_toRightOf="@+id/company_image"
+            card_view:srcCompat="@drawable/ic_action_date" />
+
+        <ImageView
+            android:id="@+id/location_image"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="45dp"
+            android:layout_toEndOf="@+id/company_image"
+            android:layout_toRightOf="@+id/company_image"
+            card_view:srcCompat="@drawable/ic_action_location" />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

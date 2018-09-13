@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?android:attr/selectableItemBackground">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FAFAFA">
+
+        <ImageView
+            android:id="@+id/company_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/placeholder"
+            android:contentDescription="@string/company_logo" />
+
+        <TextView
+            android:id="@+id/nameTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/qualification_text"
+            android:layout_alignTop="@+id/company"
+            android:layout_toRightOf="@+id/company"
+            android:text="company"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/job_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/company_image"
+            android:padding="1dp"
+            android:text="Name"
+            android:textColor="#009688"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/qualification_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/qualification_image"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/qualification_image"
+            android:text="Bcom" />
+
+        <TextView
+            android:id="@+id/address_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/nameTxt"
+            android:layout_alignTop="@+id/location"
+            android:text="kathmandu" />
+
+        <TextView
+            android:id="@+id/date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/calender"
+            android:layout_toEndOf="@+id/textView"
+            android:text="date"
+            android:textColor="#2196F3" />
+
+
+        <ImageView
+            android:id="@+id/calender"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="115dp"
+            android:layout_toRightOf="@+id/company_image"
+            card_view:srcCompat="@drawable/ic_action_date" />
+
+        <ImageView
+            android:id="@+id/location"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="90dp"
+            android:layout_toEndOf="@+id/company_image"
+            android:layout_toRightOf="@+id/company_image"
+            card_view:srcCompat="@drawable/ic_action_location" />
+
+        <ImageView
+            android:id="@+id/qualification_image"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignStart="@+id/location"
+            android:layout_marginTop="65dp"
+            android:layout_toEndOf="@+id/company_image"
+            card_view:srcCompat="@drawable/ic_action_qualification" />
+
+        <ImageView
+            android:id="@+id/company"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_toEndOf="@+id/company_image"
+            card_view:srcCompat="@drawable/ic_action_industry" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/address_text"
+            android:layout_alignTop="@+id/calender"
+            android:text="Last Date:"
+            android:textColor="#2196F3" />
+
+        <View style="@style/Divider" />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

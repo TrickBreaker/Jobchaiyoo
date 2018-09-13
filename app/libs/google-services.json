@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "893618854849",
+    "firebase_url": "https://jobchaiyoo.firebaseio.com",
+    "project_id": "jobchaiyoo",
+    "storage_bucket": "jobchaiyoo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893618854849:android:8a49934002425ff2",
+        "android_client_info": {
+          "package_name": "com.codeframetech.jobchaiyoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893618854849-8hhvoums8s6ej7fkbtskc7f456bao22u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codeframetech.jobchaiyoo",
+            "certificate_hash": "edbe1b0b96320395d7b050c56596e2c46e3667e3"
+          }
+        },
+        {
+          "client_id": "893618854849-80dmctulmiuuhsdpv1njrt07m2oovf68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGuB5x2ib2FHhZCjzhbcyVYNvL3ze4Udg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893618854849-80dmctulmiuuhsdpv1njrt07m2oovf68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

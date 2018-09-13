@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_leapfrog"
+            android:icon="@drawable/ic_leap"
+            android:title="LeapFrog Academy" />
+        <item
+            android:id="@+id/broadway"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Broadway Infosys." />
+        <item
+            android:id="@+id/codeframe"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="CodeFrame Technnology" />
+        <item
+            android:id="@+id/nav_camer"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Girls In Technology" />
+
+    </group>
+
+
+    <item android:title="more">
+        <menu>
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Urgently Required" />
+            <item
+                android:id="@+id/nav_slideshow"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Select City" />
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Search Job" />
+        </menu>
+    </item>
+
+    <item android:title="others">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/action_logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

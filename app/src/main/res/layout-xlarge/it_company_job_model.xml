@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    card_view:cardUseCompatPadding="true">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#ffffff">
+
+        <ImageView
+            android:id="@+id/company_image"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="44dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder"
+            android:layout_alignTop="@+id/nameTxt"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/nameTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/company_image"
+            android:padding="1dp"
+            android:text="Name"
+            android:textColor="#009688"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/posted_date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignLeft="@+id/nameTxt"
+            android:layout_alignStart="@+id/nameTxt"
+            android:layout_below="@+id/nameTxt"
+            android:padding="1dp"
+            android:text="2 days ago" />
+
+
+        <TextView
+
+            android:id="@+id/qualification_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bcom"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/qualification_image"
+            android:layout_alignTop="@+id/divider"
+            android:layout_alignEnd="@+id/posted_date_text" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/posted_date_text"
+            android:layout_marginTop="12dp"
+            android:background="#E0E0E0"
+            android:layout_alignStart="@+id/posted_date_text" />
+
+        <TextView
+            android:id="@+id/date_lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Date:"
+            android:textColor="#2196F3"
+            android:gravity="right"
+            android:layout_alignBaseline="@+id/date_text"
+            android:layout_alignBottom="@+id/date_text"
+            android:layout_toEndOf="@+id/qualification_image"
+            android:layout_alignStart="@+id/qualification_text" />
+
+        <TextView
+            android:id="@+id/date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="17th Jan"
+            android:textColor="#2196F3"
+            android:layout_alignBottom="@+id/calender"
+            android:layout_toEndOf="@+id/qualification_text" />
+
+        <TextView
+            android:id="@+id/required"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vacancy:"
+            android:textColor="#000000"
+           android:layout_marginLeft="500dp"
+            android:layout_alignTop="@+id/qualification_text" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/required"
+            android:layout_alignStart="@+id/required"
+            android:layout_alignTop="@+id/date_text"
+            android:text="Level:"
+            android:textColor="#000000" />
+
+
+        <ImageView
+            android:layout_marginBottom="5dp"
+            android:id="@+id/calender"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_below="@+id/qualification_image"
+            android:layout_marginTop="10dp"
+            card_view:srcCompat="@drawable/ic_action_date"
+            android:layout_alignEnd="@+id/qualification_image" />
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/required"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@+id/textView8"
+            android:layout_toRightOf="@+id/textView8"
+            android:text="2" />
+
+        <TextView
+            android:id="@+id/level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView8"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:layout_toEndOf="@+id/textView8"
+            android:layout_toRightOf="@+id/textView8"
+            android:text="Expert" />
+
+        <ImageView
+            android:id="@+id/qualification_image"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+
+            card_view:srcCompat="@drawable/ic_action_qualification"
+            android:layout_alignTop="@+id/divider"
+            android:layout_alignStart="@+id/divider" />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

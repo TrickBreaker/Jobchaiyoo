@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">JobChaiyoo</string>
+    <string name="facebook_app_id">280826592351741</string>
+    <string name="action_logout">Logout</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="sub_title">Instant search for Jobs, Events and Classes</string>
+    <string-array name="jobitem">
+        <item>Engineering</item>
+        <item>Medical</item>
+        <item>Construction</item>
+        <item>Research</item>
+        <item>Internship</item>
+        <item>Teaching</item>
+        <item>Journalism</item>
+        <item>Diploma</item>
+        <item>Health-Care</item>
+        <item>Hospitality</item>
+        <item>Finance</item>
+        <item>Core-Technical</item>
+        <item>IT-Software</item>
+    </string-array>
+    <string-array name="company_list">
+        <item>-</item>
+        <item>LeapFrog</item>
+        <item>CodeFrame</item>
+        <item>Red Fm</item>
+
+    </string-array>
+    <string-array name="level_list">
+        <item>-</item>
+        <item>Top Level</item>
+        <item>Senior Level</item>
+        <item>Mid Level</item>
+        <item>EntryLevel</item>
+
+    </string-array>
+    <string-array name="education_list">
+        <item>-</item>
+        <item>Bachelor</item>
+        <item>Intermediate</item>
+        <item>Master</item>
+        <item>Ph.D.</item>
+        <item>SLC(10th)</item>
+
+    </string-array>
+    <string-array name="place_list">
+        <item>-</item>
+        <item>Baneshwor</item>
+        <item>Naxal</item>
+        <item>Putalisadak</item>
+        <item>Jaulakhel</item>
+        <item>Kausaltar</item>
+
+    </string-array>
+    <string-array name="tab_titles">
+        <item>EVENTS</item>
+        <item>CLASSES</item>
+        <item>ALL JOBS</item>
+
+    </string-array>
+
+    <string name="title_activity_my_city_list">Select Your City</string>
+    <string name="vacancy_sub_text">Recent vacancy announced by</string>
+    <string name="class_sub_text">Course Starting on</string>
+    <string name="events_sub_text">Up-and-Coming events from</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="company_logo">company_logo</string>
+</resources>

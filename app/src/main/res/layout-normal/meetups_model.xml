@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?android:attr/selectableItemBackground">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="114dp">
+
+
+        <ImageView
+            android:id="@+id/company_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="2dp"
+
+            android:src="@drawable/profile_for_intern" />
+
+
+        <TextView
+            android:id="@+id/address_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/date_text"
+            android:layout_alignTop="@+id/location_image"
+            android:layout_toRightOf="@+id/location_image"
+            android:paddingBottom="1dp"
+            android:textSize="12sp"
+            android:text="ktm" />
+
+        <TextView
+            android:id="@+id/date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/organized_by"
+            android:layout_alignTop="@+id/date_image"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@+id/date_image"
+            android:text="date"
+            android:textSize="12sp"
+            android:textColor="#2196F3" />
+
+        <TextView
+            android:id="@+id/organized_by"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/date_image"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/company_image"
+            android:layout_toRightOf="@+id/company_image"
+            android:text="organizer"
+            android:textColor="#000000"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/organizer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/organized_by"
+            android:layout_toRightOf="@+id/organized_by"
+            android:includeFontPadding="true"
+            android:text="Code"
+            android:textColor="#c2185b"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/date_image"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_below="@+id/location_image"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/company_image"
+            card_view:srcCompat="@drawable/ic_action_date" />
+
+        <ImageView
+            android:id="@+id/location_image"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="32dp"
+            android:layout_toEndOf="@+id/company_image"
+            card_view:srcCompat="@drawable/ic_action_location" />
+
+        <TextView
+            android:id="@+id/event_type"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/nameTxt"
+            android:gravity="center_horizontal"
+            android:text="Talks"
+            android:textColor="#FF9900"
+            android:textSize="12sp" />
+
+        <View style="@style/Divider" />
+
+        <TextView
+            android:id="@+id/nameTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/company_image"
+            android:layout_alignStart="@+id/location_image"
+            android:text="Name"
+            android:textColor="#880e4f"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
